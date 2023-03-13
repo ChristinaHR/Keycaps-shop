@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Js</title>
+    <!--Script-->
+    <script src="./js/script.js"></script>
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/daec488c78.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./img/ANTIDOTE LOGO WHITE.png" alt="logo" />
+        <a href="#">Inicio</a>
+        <a href="#">Tienda</a>
+        <a href="#">Pre - compra</a>
+        <a href="#">Más</a>
+        <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+        <a href="#" class="mostrarCarrito">
+          <div class="iconos">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="articulos">0</span>
+          </div>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <!--Carousel-->
+      <section>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./img/Fuushin.jpg" style="width: 100%" />
+            <div class="text">Fuushin PBT keycap</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/MonsterCo.jpg" style="width: 100%" />
+            <div class="text">Monster Co. PBT KEYCAP</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./img/Nahida.jpg" style="width: 100%" />
+            <div class="text">Nahida Keycap</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <section>
+      <div class="carrito">
+        <div class="carritoTitulo"><span class="tituloCarrito">Carrito</span></div>
+        <div class="productos"></div>
+        <div class="cantidadTotal">
+          <span>Subtotal</span> <br>
+          <span class="subtotal">0</span>
+          <span>€</span>
+        </div>
+        <div class="pagar">
+          <span>Pagar</span>
+        </div>
+      </div>
+    </section>
+    </main>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>

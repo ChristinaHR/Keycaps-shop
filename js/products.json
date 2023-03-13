@@ -1,0 +1,80 @@
+[
+  {
+    "nombre": "Lucyna PBT Keycap Set",
+    "tipo": "keycap",
+    "precio": "15.00€",
+    "moneda": "€",
+    "foto": "Lucyna.jpg"
+  },
+  {
+    "nombre": "Green Keycap Set",
+    "tipo": "keycap",
+    "precio": "48.00€",
+    "moneda": "€",
+    "foto": "GreenDream.jpg"
+  },
+  {
+    "nombre": "Limitless Keycap Set",
+    "tipo": "keycap",
+    "precio": "59.00€",
+    "moneda": "€",
+    "foto": "Limitless.jpg"
+  },
+  {
+    "nombre": "Elegant Waku Keycap",
+    "tipo": "keycap",
+    "precio": "49.00€",
+    "moneda": "€",
+    "foto": "Waku.jpg"
+  },
+  {
+    "nombre": "Kuromi Keycap Set",
+    "tipo": "keycap",
+    "precio": "25.00€",
+    "moneda": "€",
+    "foto": "Kuromi.jpg"
+  },
+  {
+    "nombre": "Animal Crossing Keycap",
+    "tipo": "keycap",
+    "precio": "42.00€",
+    "moneda": "€",
+    "foto": "Animal.jpg"
+  },
+  
+  {
+    "nombre": "Nahida Deskmat",
+    "tipo": "mousepad",
+    "precio": "28.00€",
+    "moneda": "€",
+    "foto": "NahidaMouse.jpg"
+  },
+  {
+    "nombre": "Yumi Kitsune Deskmat",
+    "tipo": "mousepad",
+    "precio": "32.00€",
+    "moneda": "€",
+    "foto": "Yumi.jpg"
+  },
+  {
+    "nombre": "Kabuki Deskmat",
+    "tipo": "mousepad",
+    "precio": "25.00€",
+    "moneda": "€",
+    "foto": "Kabuki.jpg"
+  },
+  {
+    "nombre": "MONSTER CO DESKMAT",
+    "tipo": "mousepad",
+    "precio": "32.00€",
+    "moneda": "€",
+    "foto": "Monster.jpg"
+  },
+  {
+    "nombre": "Yakiniku 焼肉 deskmat",
+    "tipo": "mousepad",
+    "precio": "25.00€",
+    "moneda": "€",
+    "foto": "Yaniku.jpg"
+  }
+]

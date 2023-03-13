@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  
+}
+.print {
+  max-width: 99%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087c3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  color: #555555;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-family: SourceSansPro;
+ 
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+#logo {
+  float: left;
+  margin-top: 8px;
+}
+
+#logo img {
+  height: 70px;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#details {
+  margin-bottom: 50px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #db608f;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2.name {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  float: right;
+  text-align: right;
+}
+
+#invoice h1 {
+  color: #db608f;
+  font-size: 2.4em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+#invoice .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 20px;
+  background: #eeeeee;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+table th {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+table td {
+  text-align: right;
+}
+
+table td h3 {
+  color: #3d3661;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+table .no {
+  color: #ffffff;
+  font-size: 1.6em;
+  background: #db608f;
+}
+
+table .desc {
+  text-align: left;
+}
+
+table .unit {
+  background: #dddddd;
+}
+
+table .total {
+  background: #db608f;
+  color: #ffffff;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table tbody tr:last-child td {
+  border: none;
+}
+
+table tfoot td {
+  padding: 10px 20px;
+  background: #ffffff;
+  border-bottom: none;
+  font-size: 1.2em;
+  white-space: nowrap;
+  border-top: 1px solid #aaaaaa;
+}
+
+table tfoot tr:first-child td {
+  border-top: none;
+}
+
+table tfoot tr:last-child td {
+  color: #db608f;
+  font-size: 1.4em;
+}
+
+table tfoot tr td:first-child {
+  border: none;
+}
+.pdf{
+  display: block;
+  text-align: center;
+  padding: 10px; 
+  margin: 0 auto;
+  margin-bottom: 2%;
+  width: 20%;
+
+}
+
+.volverTienda{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #555555;
+  padding: 10px; 
+  margin: 0 auto;
+  margin-bottom: 2%;
+  width: 20%;
+}
+.volverTienda:hover{
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.pdf:hover{
+  background-color: #eeeeee;
+  border-radius: 5px;
+}

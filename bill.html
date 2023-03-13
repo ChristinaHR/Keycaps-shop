@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Factura</title>
+    <link rel="stylesheet" href="./css/billstyle.css" media="all" />
+    <script src="./js/bill.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div class="print">
+    <header class="clearfix">
+      <div id="logo">
+        <img src="./img/ANTIDOTE LOGO WHITE.png">
+      </div>
+      <div id="company">
+        <h2 class="name">Antidote Studio</h2>
+        <div>C. de las Huertas, 40, 28014 Madrid</div>
+        <div>913 601 229</div>
+        <div><a href="#">support@theantidotestudio.com</a></div>
+      </div>
+    </header>
+    <main>
+      <div id="details" class="clearfix">
+        <div id="client">
+          <div class="to">FACTURA A:</div>
+          <h2 class="name">Cristina Herrero</h2>
+          <div class="address">Marqués de Urquijo, 20, 33203 Gijón, Asturias</div>
+          <div class="email"><a href="#">christina@gmail.com</a></div>
+        </div>
+        <div id="invoice">
+          <h1>FACTURA</h1>
+          <div class="date">Fecha de la factura: 08/03/2023</div>
+          <div class="date">Fecha de vencimiento: 30/03/2023</div>
+        </div>
+      </div>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th class="no">#</th>
+            <th class="desc">DESCRIPCIÓN</th>
+            <th class="unit">PRECIO UNITARIO</th>
+            <th class="qty">CANTIDAD</th>
+            <th class="total">TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+          <tr class="precioTotal">
+            <td colspan="2"></td>
+            <td colspan="2">SUBTOTAL</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <a href="./index.html" class="volverTienda">Volver a la tienda</a>
+    <span class="pdf">Descargar PDF</span>
+  </body>
+</html>
